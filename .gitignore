@@ -3,3 +3,5 @@ tools/bin/
 pending/
 pending.json
 .DS_Store
+config.bat
+node_modules

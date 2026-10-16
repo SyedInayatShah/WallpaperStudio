@@ -25,6 +25,7 @@ of those untracked files are left alone.
 Thumbnails are named <kind>-<base>.jpg; thumbs no longer referenced by
 catalog.json or pending.json are deleted.
 """
+import utils.session
 import json
 import os
 import shutil
