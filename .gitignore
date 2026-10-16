@@ -1,0 +1,5 @@
+work/
+tools/bin/
+pending/
+pending.json
+.DS_Store

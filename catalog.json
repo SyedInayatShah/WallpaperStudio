@@ -1,0 +1,119 @@
+[
+  {
+    "id": "still-cloud-sea",
+    "title": "Cloud Sea",
+    "kind": "still",
+    "file": "stills/cloud-sea.jpg",
+    "thumb": "thumbs/still-cloud-sea.jpg",
+    "width": 3840,
+    "height": 2400,
+    "creator": "Wallpaper Studio",
+    "created": "9/23/26"
+  },
+  {
+    "id": "still-dune-sea",
+    "title": "Dune Sea",
+    "kind": "still",
+    "file": "stills/dune-sea.jpg",
+    "thumb": "thumbs/still-dune-sea.jpg",
+    "width": 3840,
+    "height": 2400,
+    "creator": "Wallpaper Studio",
+    "created": "9/21/26"
+  },
+  {
+    "id": "still-emerald-lake",
+    "title": "Emerald Lake",
+    "kind": "still",
+    "file": "stills/emerald-lake.jpg",
+    "thumb": "thumbs/still-emerald-lake.jpg",
+    "width": 3840,
+    "height": 2400,
+    "creator": "Wallpaper Studio",
+    "created": "9/21/26"
+  },
+  {
+    "id": "still-golden-swell",
+    "title": "Golden Swell",
+    "kind": "still",
+    "file": "stills/golden-swell.jpg",
+    "thumb": "thumbs/still-golden-swell.jpg",
+    "width": 3840,
+    "height": 2400,
+    "creator": "Wallpaper Studio",
+    "created": "9/21/26"
+  },
+  {
+    "id": "still-neon-horizon",
+    "title": "Neon Horizon",
+    "kind": "still",
+    "file": "stills/neon-horizon.jpg",
+    "thumb": "thumbs/still-neon-horizon.jpg",
+    "width": 3840,
+    "height": 2400,
+    "creator": "Wallpaper Studio",
+    "created": "9/21/26"
+  },
+  {
+    "id": "still-pine-ridge-dusk",
+    "title": "Pine Ridge Dusk",
+    "kind": "still",
+    "file": "stills/pine-ridge-dusk.jpg",
+    "thumb": "thumbs/still-pine-ridge-dusk.jpg",
+    "width": 3840,
+    "height": 2400,
+    "creator": "Wallpaper Studio",
+    "created": "9/21/26"
+  },
+  {
+    "id": "still-stellar-nursery",
+    "title": "Stellar Nursery",
+    "kind": "still",
+    "file": "stills/stellar-nursery.jpg",
+    "thumb": "thumbs/still-stellar-nursery.jpg",
+    "width": 3840,
+    "height": 2400,
+    "creator": "Wallpaper Studio",
+    "created": "9/21/26"
+  },
+  {
+    "id": "live-firefly-forest",
+    "title": "Firefly Forest",
+    "kind": "live",
+    "file": "live/firefly-forest.mp4",
+    "thumb": "thumbs/live-firefly-forest.jpg",
+    "width": 2560,
+    "height": 1600,
+    "creator": "Wallpaper Studio",
+    "created": "9/23/26"
+  },
+  {
+    "id": "live-lighthouse-watch",
+    "title": "Lighthouse Watch",
+    "kind": "live",
+    "file": "live/lighthouse-watch.mp4",
+    "thumb": "thumbs/live-lighthouse-watch.jpg",
+    "width": 2560,
+    "height": 1600,
+    "creator": "Wallpaper Studio",
+    "created": "9/23/26"
+  },
+  {
+    "id": "dynamic-cyber-district",
+    "title": "Cyber District",
+    "kind": "dynamic",
+    "file": "dynamic/cyber-district.metal",
+    "thumb": "thumbs/dynamic-cyber-district.jpg",
+    "width": 0,
+    "height": 0,
+    "moments": [
+      "night",
+      "midday",
+      "golden hour",
+      "sunset",
+      "dusk"
+    ],
+    "creator": "Wallpaper Studio",
+    "created": "9/23/26"
+  }
+]
