@@ -150,6 +150,6 @@ if [[ "$(git rev-list --count '@{u}..HEAD')" -gt 0 ]]; then
     git push -q
 fi
 for f in catalog.json removed.json; do
-    curl -s -o /dev/null --max-time 10 "https://purge.jsdelivr.net/gh/SyedInayatShah/wallpaper-studio-library@main/$f" || true
+    curl -s -o /dev/null --max-time 10 "https://purge.jsdelivr.net/gh/SyedInayatShah/WallpaperStudio@main/$f" || true
 done
 echo "Published: $TARGET. Live in the app after refresh."
