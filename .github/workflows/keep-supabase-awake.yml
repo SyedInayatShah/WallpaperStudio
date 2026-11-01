@@ -1,0 +1,21 @@
+# Supabase pauses a free project after a week with no traffic, and while it is
+# paused nobody new can sign in. One request every couple of days counts as
+# activity and keeps it awake.
+name: Keep the account server awake
+
+on:
+  schedule:
+    - cron: "0 7 */2 * *"   # every second day, 07:00 UTC
+  workflow_dispatch:         # and whenever you press Run workflow
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Touch the account server
+        run: |
+          url="https://cssmrxnxeeacdnprfkpx.supabase.co/auth/v1/settings"
+          code=$(curl -s -o /dev/null -w '%{http_code}' --max-time 30 \
+                  -H "apikey: ${{ secrets.SUPABASE_ANON_KEY }}" "$url")
+          echo "account server answered $code"
+          [ "$code" = "200" ]
