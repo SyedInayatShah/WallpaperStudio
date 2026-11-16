@@ -1,8 +1,8 @@
 {
-  "version": "3.3",
-  "build": 33,
-  "notes": "The app keeps working when the account server is unreachable.",
-  "url": "https://github.com/SyedInayatShah/WallpaperStudio/releases/download/v3.3/Wallpaper-Studio-3.3.zip",
-  "sha256": "3baeec04db586c1ff571d99f931aa21823d15cc349956659a81cebfea131d991",
+  "version": "3.4",
+  "build": 35,
+  "notes": "Fixes being signed out after sleep or inactivity. Sessions now renew themselves instead of lapsing, and overlapping renewals no longer cancel each other out.",
+  "url": "https://github.com/SyedInayatShah/WallpaperStudio/releases/download/v3.4/Wallpaper-Studio-3.4.zip",
+  "sha256": "58cdb34e8b3ef2faab9b27382a7386a1bc7b14037a66a662ca6d07c5b26b3b8a",
   "minimumSystemVersion": "13.0"
 }
