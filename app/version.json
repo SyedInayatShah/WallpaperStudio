@@ -1,8 +1,8 @@
 {
-  "version": "3.4",
-  "build": 35,
-  "notes": "Fixes being signed out after sleep or inactivity. Sessions now renew themselves instead of lapsing, and overlapping renewals no longer cancel each other out.",
-  "url": "https://github.com/SyedInayatShah/WallpaperStudio/releases/download/v3.4/Wallpaper-Studio-3.4.zip",
-  "sha256": "58cdb34e8b3ef2faab9b27382a7386a1bc7b14037a66a662ca6d07c5b26b3b8a",
+  "version": "3.5",
+  "build": 37,
+  "notes": "Stops the app signing you out. Sessions are now actually saved to disk \u2014 a storage flag macOS refused meant they silently never were \u2014 and they renew themselves after sleep instead of lapsing.",
+  "url": "https://github.com/SyedInayatShah/WallpaperStudio/releases/download/v3.5/Wallpaper-Studio-3.5.zip",
+  "sha256": "db4bc7b76d312e224722ebc1900183fdb90547eda9a9a0f29cc00947606b75c7",
   "minimumSystemVersion": "13.0"
 }
